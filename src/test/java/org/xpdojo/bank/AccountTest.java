@@ -18,6 +18,15 @@ public class AccountTest {
         Account account = new Account();
         account.depositMoney(100);
         assertThat(account.getBalance()).isEqualTo(100);
+    }
+
+    @Test
+    public void depositTwiceToAccountIncreasesBalance() {
+        Account account = new Account();
+        account.depositMoney(100);
+        assertThat(account.getBalance()).isEqualTo(100);
+        account.depositMoney(200);
+        assertThat(account.getBalance()).isEqualTo(300);
 
     }
 }
