@@ -2,6 +2,7 @@
 
 # Driving out a Bank Account with TDD
 
+
 This session will be fun. That's the primary objective, have fun and code. That's it! In this session we will talk for a little bit about why XP practices are important and then we can write some code practicing two of the most fundamental ones. 
 
 The code will be super easy, this is not about writing complicated code, quite the opposite. We will get pairs of you to build really simple test driven code. It will make you rethink how you write code. For those of you after more of a challenge, we have included some optional Object Oriented (calisthenics) rules to apply.
